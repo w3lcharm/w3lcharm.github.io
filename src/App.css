@@ -21,7 +21,20 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+@media (prefers-color-scheme: light) {
+  .App-header {
+    color: #000000;
+    background-color: #f0f0f0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .App-header {
+    color: #ffffff;
+    background-color: #303030;
+  }
 }
 
 .App-link {
